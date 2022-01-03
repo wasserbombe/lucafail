@@ -1,0 +1,45 @@
+{
+    "linklist": [{
+        "title": "Analyse des Chaos Computer Club Freiburg e.V.",
+        "text": "Der Chaos Computer Club Freiburg begleitet die Luca-App seit Anfang an intensiv mit gründlichen Analysen und begründeter Kritik:",
+        "imgsrc": "http://via.placeholder.com/200x180",
+        "links": [{
+            "text": "Luca Numbers: Genauere Betrachtung Werbeversprechen",
+            "url": "https://wiki.cccfr.de/luca_numbers5"
+        }]
+
+    },{
+        "title": "#LucaApp Performance Monitor",
+        "text": "Luca-App Performance Monitor von Ralf Rottmann",
+        "imgsrc": "http://luca.fail/assets/luca.denken.io.png",
+        "links": [{
+            "text": "luca.denken.io",
+            "url": "https://luca.denken.io/"
+        }]
+
+    },{
+        "title": "Timeline zur Luca-App",
+        "text": "Ein chronologisch aufbereiteter Überblick über die Luca-App basierend auf aktueller Berichterstattung, Statements von IT- und Security-Experten, Talks und Videos sowie Informationsfreiheits-Anfragen auf fragdenstaat.de",
+        "imgsrc": "http://luca.fail/assets/timeline.png",
+        "links": [{
+            "text": "timeline.luca.fail",
+            "url": "https://timeline.luca.fail"
+        },{
+            "text": "timeline.luca.fail/data/timeline_data.json (API)",
+            "url": "https://timeline.luca.fail/data/timeline_data.json"
+        }]
+
+    },{
+        "title": "Dokument: \"Luca-App: Warum wir nochmal drüber reden sollten.\"",
+        "text": "Um jedem Interessierten und Verantwortlichen in IT, Kommune, auf Kreis- und Landesebene einen möglichst vollständigen Überblick über die Kritikpunkte bei der Luca-App zu geben, wurde dieses Dokument ins Leben gerufen - sodass vor dem Einsatz von Luca unter der eigenen Verantwortung eine sorgfältige Abwägung zwischen Features und Erleichterung auf der einen Seite (vorgestellt von Luca selbst) und möglichen Risiken und Problemen auf der anderen Seite (hier im Dokument) stattfinden kann.<br><font color=\"darkred\"><b>Zuletzt aktualisiert am 27.08.2021 - Informationen möglicherweise veraltet</b></font>",
+        "imgsrc": "http://via.placeholder.com/200x180",
+        "links": [{
+            "text": "Dokument (PDF)",
+            "url": "https://luca.fail/assets/Luca-App_ Warum wir nochmal drüber reden sollten.pdf"
+        },{
+            "text": "edit.luca.fail (Google Docs-Dokument zum Mitarbeiten)",
+            "url": "http://edit.luca.fail"
+        }]
+
+    }]
+}
