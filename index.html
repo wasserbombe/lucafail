@@ -2,13 +2,17 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
 
         <!-- <link href="css/main.css" rel="stylesheet"> -->
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/bootstrap-icons/bootstrap-icons.css">
 
         <style>
+            .card {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
             .card-horizontal {
                display: flex;
                flex: 1 1 auto;
@@ -36,7 +40,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://luca.fail/" />
         <meta property="og:image" content="https://timeline.luca.fail/assets/restaurant_1920.jpg" />
-        <meta property="og:description" content="" />
+        <meta property="og:description" content="Liste von Webseiten, die sich sehr intensiv oder sogar ausschließlich mit der Kritik an der Luca-App beschäftigen" />
 
         <link rel="shortcut icon" href="https://timeline.luca.fail/assets/lucafail_favicon_100px.ico" />
         <link rel="icon" type="image/png" href="https://timeline.luca.fail/assets/lucafail_favicon_100px.png" />
@@ -49,15 +53,61 @@
                 <h1>
                     Linkliste zur Luca-App
                 </h1>
+                <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                    <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                    </symbol>
+                    <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                    </symbol>
+                    <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </symbol>
+                </svg>
+                <div class="alert alert-primary d-flex align-items-center" role="alert">
+                    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+                    <div>
+                        Da die Domain luca.fail in letzter Zeit vermehrt Aufrufe bekam (aber keinen Inhalt bietet), wurde spontan diese temporäre Seite aufgebaut. Sie wird definitiv noch unvollständig sein; Ergänzungen aber gerne per Issue oder Pull Request im <a href="https://github.com/wasserbombe/lucafail" target="_blank">Github-Repository</a>.
+                    </div>
+                </div>
                 <p>
-                    Die folgende Liste enthält einige Seiten, die die Kritik an der Luca-App näher beschreiben. 
+                    Die folgende Liste enthält einige Seiten, die sich sehr intensiv oder sogar ausschließlich mit der Kritik an der Luca-App beschäftigen. Darüber hinaus berichten auch immer wieder (über-)regionale Medien und IT-Sicherheitsexperten über die Luca-App; einen Auszug daraus gibt es chronologisch geordnet in der <a href="https://timeline.luca.fail/" target="_blank">Timeline zur Luca-App</a>.
                 </p>
                 <div id="linkarea"></div>
+                <br>
+                <h3>Datenschutzerklärung</h3>
+                <ul>
+                    <li>
+                        Wir nutzen keine Cookies oder ähnliche Techniken.
+                    </li>
+                    <li>
+                        Wir binden keine externen Dienste oder Inhalte ein.
+                    </li>
+                    <li>
+                        Unsere Server-Logs sehen so aus: 
+                        <code><pre>
+luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 711 "GET / HTTP/1.1" 200 2515
+luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 5637 "GET /css/bootstrap.min.css HTTP/1.1" 200 23432
+luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 5724 "GET /js/jquery.js HTTP/1.1" 200 31387
+luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 239 "GET /js/main.js HTTP/1.1" 200 6053
+luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 4184 "GET /js/bootstrap.bundle.min.js HTTP/1.1" 200 28111
+luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 314 "GET /data/linklist.json HTTP/1.1" 200 3498
+luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 235 "GET /assets/cccfr-logo.png HTTP/1.1" 200 13737
+luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 271 "GET /assets/luca.denken.io.png HTTP/1.1" 200 120101
+luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 441 "GET /assets/timeline.png HTTP/1.1" 200 109539</pre></code>
+                        ... enthalten also keine personenbezogenen Informationen (und lassen auch keinen Rückschluss darauf zu) - und werden nach 24 Stunden automatisch gelöscht.
+                    </li>
+                    <li>
+                        Die Seite enthält (fast ausschließlich) externe Links, d.h. es handelt sich um externe Webseiten, auf die wir keinen Einfluss haben, damit dort logischerweise auch nicht unsere Datenschutzerklärung gilt und wir somit auch keine Verantwortung für die dortigen Inhalte oder den dortigen Datenschutz übernehmen.
+                    </li>
+                </ul>
             </div>
         </main>
         
         <hr>
-        <footer></footer>
+        <footer>
+            <!-- Private website => no Impressum needed -->
+        </footer>
 
         <script src="/js/jquery.js"></script>
         <script src="/js/markdown-it.min.js"></script>

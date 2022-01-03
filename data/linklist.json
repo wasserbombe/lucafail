@@ -1,17 +1,37 @@
 {
     "linklist": [{
-        "title": "Analyse des Chaos Computer Club Freiburg e.V.",
-        "text": "Der Chaos Computer Club Freiburg begleitet die Luca-App seit Anfang an intensiv mit gründlichen Analysen und begründeter Kritik:",
-        "imgsrc": "http://via.placeholder.com/200x180",
+        "title": "Frag den Staat: IFG-Anfragen zur Luca-App",
+        "text": "Über die Webseite fragdenstaat.de wurden viele Anfragen zum Thema Luca-App gemäß des Informationsfreiheits-Gesetzes (IFG) an Behörden, Ämter und öffentliche Stellen gerichtet - und teilweise beantwortet.",
+        "imgsrc": "https://luca.fail/assets/fragdenstaat_logo.svg",
         "links": [{
-            "text": "Luca Numbers: Genauere Betrachtung Werbeversprechen",
+            "url": "https://fragdenstaat.de/anfragen/?q=Luca+App&status=&jurisdiction=&campaign=&category=&publicbody=&tag=&user=",
+            "text": "fragdenstaat.de"
+        }]
+    },{
+        "title": "Analyse(n) des Chaos Computer Club Freiburg e.V.",
+        "text": "Der Chaos Computer Club Freiburg begleitet die Luca-App seit Anfang an intensiv mit gründlichen Analysen und begründeter Kritik:",
+        "imgsrc": "https://luca.fail/assets/cccfr-logo.png",
+        "links": [{
+            "text": "Luca Numbers",
+            "url": "https://wiki.cccfr.de/luca_numbers"
+        },{
+            "text": "Luca Numbers #2: Luca Nutzungsabschätzung über Traces",
+            "url": "https://wiki.cccfr.de/luca_numbers2"
+        },{
+            "text": "Luca Numbers #3: Über das Luca System, Hintergrundinformationen für Politik und Medienschaffende",
+            "url": "https://wiki.cccfr.de/luca_numbers3"
+        },{
+            "text": "Luca Numbers #4: Luca Abschätzung des Einsatz",
+            "url": "https://wiki.cccfr.de/luca_numbers4"
+        },{
+            "text": "Luca Numbers #5: Genauere Betrachtung Werbeversprechen",
             "url": "https://wiki.cccfr.de/luca_numbers5"
         }]
 
     },{
         "title": "#LucaApp Performance Monitor",
         "text": "Luca-App Performance Monitor von Ralf Rottmann",
-        "imgsrc": "http://luca.fail/assets/luca.denken.io.png",
+        "imgsrc": "https://luca.fail/assets/luca.denken.io.png",
         "links": [{
             "text": "luca.denken.io",
             "url": "https://luca.denken.io/"
@@ -19,8 +39,8 @@
 
     },{
         "title": "Timeline zur Luca-App",
-        "text": "Ein chronologisch aufbereiteter Überblick über die Luca-App basierend auf aktueller Berichterstattung, Statements von IT- und Security-Experten, Talks und Videos sowie Informationsfreiheits-Anfragen auf fragdenstaat.de",
-        "imgsrc": "http://luca.fail/assets/timeline.png",
+        "text": "Ein chronologisch aufbereiteter Überblick über die Luca-App basierend auf aktueller Berichterstattung, Statements von IT- und Security-Experten, Talks und Videos sowie Informationsfreiheits-Anfragen auf fragdenstaat.de<br>Die Daten der Luca-Timeline stehen maschinenlesbar im JSON-Format zur Verfügung.",
+        "imgsrc": "https://luca.fail/assets/timeline.gif",
         "links": [{
             "text": "timeline.luca.fail",
             "url": "https://timeline.luca.fail"
@@ -32,7 +52,7 @@
     },{
         "title": "Dokument: \"Luca-App: Warum wir nochmal drüber reden sollten.\"",
         "text": "Um jedem Interessierten und Verantwortlichen in IT, Kommune, auf Kreis- und Landesebene einen möglichst vollständigen Überblick über die Kritikpunkte bei der Luca-App zu geben, wurde dieses Dokument ins Leben gerufen - sodass vor dem Einsatz von Luca unter der eigenen Verantwortung eine sorgfältige Abwägung zwischen Features und Erleichterung auf der einen Seite (vorgestellt von Luca selbst) und möglichen Risiken und Problemen auf der anderen Seite (hier im Dokument) stattfinden kann.<br><font color=\"darkred\"><b>Zuletzt aktualisiert am 27.08.2021 - Informationen möglicherweise veraltet</b></font>",
-        "imgsrc": "http://via.placeholder.com/200x180",
+        "imgsrc": "https://luca.fail/assets/edit.luca.fail.png",
         "links": [{
             "text": "Dokument (PDF)",
             "url": "https://luca.fail/assets/Luca-App_ Warum wir nochmal drüber reden sollten.pdf"
@@ -41,5 +61,21 @@
             "url": "http://edit.luca.fail"
         }]
 
+    },{
+        "title": "Felix Grädler: “Was ist eigentlich der Unterschied zwischen der Luca-App und der Corona-Warn-App?”",
+        "text": "Felix Grädler, Stadtrat in Heidelberg und geschäftsführender Gesellschafter der dortigen halle02, fasst auf seiner Webseite die Kritik an der Luca-App und die Abgrenzung zur Corona-Warn-App kurz und präzise zusammen.",
+        "imgsrc": "https://luca.fail/assets/felix_graedler.png",
+        "links": [{
+            "url": "https://www.felixgraedler.de/post/was-ist-eigentlich-der-unterschied-zwischen-der-luca-app-und-der-corona-warn-app",
+            "text": "Felix Grädler: “Was ist eigentlich der Unterschied zwischen der Luca-App und der Corona-Warn-App?” (felixgraedler.de)"
+        }]
+    },{
+        "title": "Digikoletter: Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung",
+        "text": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung von über 70 Sicherheitsforschern und über 400 weiteren Unterzeichnern mit grundlegenden Entwicklungsprinzipien.",
+        "imgsrc": "https://luca.fail/assets/digikoletter.png",
+        "links": [{
+            "url": "https://digikoletter.github.io/",
+            "text": "digikoletter.github.io"
+        }]
     }]
 }
