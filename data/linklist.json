@@ -23,9 +23,6 @@
         },{
             "text": "Luca Numbers #4: Luca Abschätzung des Einsatz",
             "url": "https://wiki.cccfr.de/luca_numbers4"
-        },{
-            "text": "Luca Numbers #5: Genauere Betrachtung Werbeversprechen",
-            "url": "https://wiki.cccfr.de/luca_numbers5"
         }]
 
     },{
@@ -49,6 +46,32 @@
             "url": "https://timeline.luca.fail/data/timeline_data.json"
         }]
 
+    },{
+        "title": "Expertenwissen von Bianca Kastl",
+        "text": "Bianca Kastl ist direkt an der \"Corona-Front\" tätig und hilft Gesundheitsämtern bei der Digitalisierung. Sie kennt die Situation in Gesundheitsämtern somit aus erster Hand - und berichtet auf ihrer Webseite immer wieder zur Digitalisierung und zum Datenschutz beim Vorgehen bei der Kontaktnachverfolgung.",
+        "imgsrc": "https://luca.fail/assets/bkastl.png",
+        "links": [{
+            "url": "https://bkastl.de/notes/datenschutz-versus-infektionsschutz",
+            "text": "“Datenschutz versus Infektionsschutz” (bkastl.de)"
+        },{
+            "url": "https://bkastl.de/notes/eine-kleine-contact-tracing-datenforensik-luca-corona-warnapp",
+            "text": "“Eine kleine Contact Tracing Datenforensik” (bkastl.de)"
+        },{
+            "url": "https://bkastl.de/notes/die-corona-schnittstellenlage-survnet-demis-sormas",
+            "text": "“Die Corona Schnittstellenlage und andere Probleme” (bkastl.de)"
+        },{
+            "url": "https://bkastl.de/notes/background-digitalisierung-in-einer-pandemie-im-gesundheitsamt",
+            "text": "“Background: Digitalisierung. In einer Pandemie. Im Gesundheitsamt!” (bkastl.de)"
+        },{
+            "url": "https://bkastl.de/notes/digitalisierung-was-soll-das-eigentlich-bedeuten",
+            "text": "“Digitalisierung – was soll das eigentlich bedeuten?” (bkastl.de)"
+        },{
+            "url": "https://bkastl.de/notes/contact-tracing-todo-cwa-luca-corona-warn-app",
+            "text": "“Eine kleine Contact Tracing To Do Liste” (bkastl.de)"
+        },{
+            "url": "https://bkastl.de/notes/luca-app-lucatrack-und-andere-gefahren",
+            "text": "“Luca App - LucaTrack und andere Gefahren” (bkastl.de)"
+        }]
     },{
         "title": "Dokument: \"Luca-App: Warum wir nochmal drüber reden sollten.\"",
         "text": "Um jedem Interessierten und Verantwortlichen in IT, Kommune, auf Kreis- und Landesebene einen möglichst vollständigen Überblick über die Kritikpunkte bei der Luca-App zu geben, wurde dieses Dokument ins Leben gerufen - sodass vor dem Einsatz von Luca unter der eigenen Verantwortung eine sorgfältige Abwägung zwischen Features und Erleichterung auf der einen Seite (vorgestellt von Luca selbst) und möglichen Risiken und Problemen auf der anderen Seite (hier im Dokument) stattfinden kann.<br><font color=\"darkred\"><b>Zuletzt aktualisiert am 27.08.2021 - Informationen möglicherweise veraltet</b></font>",
@@ -76,6 +99,23 @@
         "links": [{
             "url": "https://digikoletter.github.io/",
             "text": "digikoletter.github.io"
+        }]
+    },{
+        "title": "Stellungnahmen von verschiedenen Organisationen, Vereinen und Verbänden",
+        "text": "Bildquelle: <a href=\"https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3354366\">Gerd Altmann</a> from <a href=\"https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3354366\">Pixabay</a>",
+        "imgsrc": "https://luca.fail/assets/stellungnahmen.png",
+        "links": [{
+            "url": "https://www.ccc.de/de/updates/2021/luca-app-ccc-fordert-bundesnotbremse",
+            "text": "Chaos Computer Club: “Luca-App: CCC fordert Bundesnotbremse” (ccc.de)"
+        },{
+            "url": "https://beteiligungsportal.baden-wuerttemberg.de/de/informieren/service/media/mid/dr-stefan-brink/",
+            "text": "Dr. Stefan Brink, LfDI BW: “Es sind die Landesbehörden, die auf die Kontaktdatenerhebung bestehen - unter diesen Vorraussetzungen ist die zweitbeste Lösung eben auch eine Lösung.” (beteiligungsportal.baden-wuerttemberg.de)"
+        },{
+            "url": "https://www.datenschutzkonferenz-online.de/media/st/20210429_DSK_Stellungnahme_LUCA.pdf",
+            "text": "Stellungnahme der DSK: Luca könne Daten liefern, “die für die Kontaktnachverfolgung nutzlos sind” (datenschutzkonferenz-online.de)"
+        },{
+            "url": "https:\/\/bbsb.org\/newsletter-eintrag\/bbsb-pressemitteilung-luca-app-nicht-barrierefrei-bbsb-inform-12-04-2021-2\/",
+            "text": "Bayerische Blinden- und Sehbehindertenbund e.V.: Luca-App nicht barrierefrei (bbsb.org)"
         }]
     }]
 }
