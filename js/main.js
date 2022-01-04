@@ -16,7 +16,7 @@
                 if (item.links && item.links.length > 0) {
                     var $ul = $("<ul>");
                     item.links.forEach((link, i) => {
-                        $ul.append($("<li>").append($("<a>").attr("href", link.url).attr("target", "_blank").text(link.text)));
+                        $ul.append($("<li>").append($("<a>").attr("href", link.url).attr("target", "_blank").html(link.text)));
                     });
                     $cardBody.append($ul);
                 }
