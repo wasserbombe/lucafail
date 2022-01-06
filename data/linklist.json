@@ -1,4 +1,109 @@
 {
+    "critics": [{
+        "title": "Überlastung der Gesundheitsämter",
+        "text": "Gesundheitsämter sind aufgrund ihrer Auslastung gar nicht in der Lage, Kontaktnachverfolgung und/oder Luca zu nutzen und haben es nach einer Analyse des Chaos Computer Clubs Freiburg in letzter Zeit (Stand: 06.01.2021) auch nicht (siehe Quelle unten).<br><br><blockquote>Einfacher löst das die Corona-Warn-App. Sie nimmt nicht den Umweg über eines der chronisch überlasteten Gesundheitsämter, die in zahlreichen Fällen die Quarantänemaßnahmen erst Wochen später per Post an die Betroffenen vermeldeten. »Die Luca-App ist im Prinzip nur die elektrifizierte Version eines langsamen und brüchigen Prozesses«, kritisiert auch Netzaktivistin Bianca Kastl. »Das eigentliche Ziel, Kontakte möglichst schnell und direkt zu warnen, lässt sich so kaum mehr erreichen, weil Gesundheitsämter schlichtweg bereits mehr als genug Arbeit in dieser Pandemie zu tun haben.</blockquote><blockquote>Die Entwicklerin Bianca Kastl sieht in der Luca-App kein Potenzial mehr fürs effektive Kontakt-Tracing in der Pandemie. Ämter fragten die Daten kaum ab.</blockquote>",
+        "sources": [{
+            "url": "https://www.focus.de/gesundheit/rueckschlag-bei-pandemie-bekaempfung-rueckschlag-bei-pandemie-bekaempfung-gesundheitsaemter-geben-kontaktverfolgung-auf_id_24514897.html",
+            "text": "Focus Online: “\"Die Lage entgleitet uns\": Gesundheitsämter geben Verfolgung von Corona-Kontakten auf” (focus.de)"
+        },{
+            "url": "https:\/\/www.nd-aktuell.de\/artikel\/1159982.digitale-pandemiebekaempfung-netzaktivistinnen-kritisieren-ineffektives-millioneninvestment.html",
+            "text": "Daniel L\u00fccking: \u201cNetzaktivistinnen kritisieren ineffektives Millioneninvestment\u201d (nd-aktuell.de)"
+        },{
+            "url": "https:\/\/heise.de\/-6314412",
+            "text": "Stefan Krempl: \u201cExpertin f\u00fcr Kontaktverfolgung: \"Die Luca-App ist technologisch tot\"\u201d (heise.de)"
+        },{
+            "url": "https:\/\/media.ccc.de\/v\/rc3-2021-cwtv-226-digitalisierung-in-ein",
+            "text": "Bianca Kastl @ rC3: \u201cDigitalisierung. In einer Pandemie. Im Gesundheitsamt!\u201d (media.ccc.de)"
+        },{
+            "url": "https://twitter.com/cccfr/status/1474169814025482241",
+            "text": "Tweet des Chaos Computer Clubs Freiburg: seit Wochenbeginn findet bundesweit so gut wie gar KEINE Nachverfolgung mehr (twitter.com)"
+        }]
+    },{
+        "title": "Datenqualität fraglich",
+        "text": "Die Datenqualität der Luca-App ist für viele Experten fraglich, da in den Luca-Daten keine Risikobewertung wie z.B. bei der Corona-Warn-App, die den Abstand zur infizierten Person, Dauer des Kontakts sowie dafür Forschung über Aerosol-Einfluss und -Dauer mit einbezieht. Auch kann die Luca-App nur an bestimmten Orten zum Einsatz kommen und ist darauf angewiesen, dass QR-Codes möglichst granular verteilt und auch aktiv benutzt werden.<br>Die fehlende Risikobewertung hat zur Folge, dass Gesundheitsämter immer <i>alle Daten</i> eines Events erhalten - und diese dann erst bewerten müssen.",
+        "sources": [{
+            "url": "https:\/\/www.sr.de\/sr\/home\/nachrichten\/politik_wirtschaft\/luca-app_im_saarland_bislang_ein_flop_100.html",
+            "text": "Caroline Uhl, Niklas Resch: \u201cLuca-App im Saarland bislang ein Flop\u201d (sr.de)"
+        },{
+            "url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/280882-corona-luca-app-vielerorts-ein-mega-flop.html",
+            "text": "FFH: \u201cFFH-Recherche zeigt: Luca-App in Hessen vielerorts ein \"Flop\"\u201d (ffh.de)"
+        },{
+            "url": "https://bkastl.de/notes/background-digitalisierung-in-einer-pandemie-im-gesundheitsamt",
+            "text": "Bianca Kastl: “Background: Digitalisierung. In einer Pandemie. Im Gesundheitsamt!”"
+        }]
+    },{
+        "title": "Kommerzialisierung: Zukunft nach der Pandemie ungewiss, aber theoretisch kommerzialisierbar",
+        "text": "Die App hat - unter Mitwirkung der Bundesländer - einen großen Nutzerkreis aufgebaut; was nach der Pandemie geschieht, ist ungewiss. Laut eines Berichts von netzpolitik.org ist aber eine Öffnung und Kommerzialisierung möglich, zumindest hält man sich diese Möglichkeit im Kooperationsvertrag offen.",
+        "sources": [{
+            "url": "https:\/\/netzpolitik.org\/2022\/neue-geschaeftsmodelle-wie-luca-nach-der-pandemie-weiter-kasse-machen-kann\/",
+            "text": "Markus Reuter: \u201cNeue Gesch\u00e4ftsmodelle - Wie Luca nach der Pandemie weiter Kasse machen kann\u201d (netzpolitik.org)"
+        },{
+            "url": "https://fragdenstaat.de/dokumente/142633-kooperationsvertrag-luca-app-mit-schleswig-holstein/",
+            "text": "Kooperationsvertrag Luca-App mit Schleswig-Holstein (fragdenstaat.de)"
+        }]
+    },{
+        "title": "“Kryptografie allein löst keine Sicherheitsprobleme”",
+        "text": "Sicherheitsprobleme wie \"LucaTrack\", das Auslesen der Bewegungshistorie aller Schlüsselanhänger oder das Einschleusen von Schadcode bei Gesundheitsämtern seien auch mit der besten Kryptografie möglich - hier fehle es konzeptionell.",
+        "sources": [{
+            "url": "https://bkastl.de/notes/background-digitalisierung-in-einer-pandemie-im-gesundheitsamt",
+            "text": "Bianca Kastl: “Background: Digitalisierung. In einer Pandemie. Im Gesundheitsamt!”"
+        },{
+            "url": "https://lucatrack.de/",
+            "text": "LucaTrack Exploit Demonstration"
+        },{
+            "url": "https://www.heise.de/news/Luca-App-fuer-Kontakttracking-Sicherheitsluecke-in-Schluesselanhaengern-gefunden-6015219.html",
+            "text": "Luca-App für Kontakt-Tracking: Sicherheitslücke in Schlüsselanhängern gefunden"
+        },{
+            "url": "https://media.ccc.de/v/cccs-202105-lucatrack-und-andere-gefahren",
+            "text": "Die Luca App - LucaTrack und andere Gefahren - Vortragsvideo"
+        },{
+            "url": "https://vimeo.com/558459255",
+            "text": "Luca App: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
+        },{
+            "url": "https://www.golem.de/news/csv-import-luca-app-ermoeglichte-code-injection-bei-excel-2105-156787.html",
+            "text": "Luca-App ermöglichte Code-Injection bei Excel"
+        },{
+            "url": "https://www.heise-devsec.de/lecture_compact1.php?id=13480&source=0",
+            "text": "Keynote: Die luca App – eine entschlüsselte Fehlersammlung (Vortragsankündigung)"
+        }]
+    },{
+        "title": "Corona-Warn-App ist eine funktionierende Alternative",
+        "text": "Die Corona-Warn-App ist eine funktionierende Alternative, denn <blockquote>Nutzer:innen können mit dieser ebenfalls an Orten einchecken. Die Corona-Warn-App hat zudem den Vorteil, dass die Warnungen automatisiert – also ohne Zutun überlasteter Behörden – verschickt werden. Auf diesem Weg haben mehr als 1,7 Millionen Menschen mit ihrem positiven Testergebnis mehr als 10 Millionen andere Nutzer:innen gewarnt.</blockquote>",
+        "sources":[{
+            "url": "https://netzpolitik.org/2022/corona-app-bundeslaender-entscheiden-im-februar-ueber-kuendigung-der-luca-vertraege/",
+            "text": "Markus Reuter: \u201cBundesländer entscheiden im Februar über Kündigung der Luca-Verträge\u201d (netzpolitik.org)"
+        }]
+    },{
+        "title": "“Sinnvolle Digitalisierung elektrifiziert nicht einfach nur analoge Abläufe.”",
+        "text": "Die Luca-App bzw. die Kontaktdatenerfassung von Luca digitalisiert einen analogen Prozess 1:1. Gästelisten-Apps wie Luca sind immer auf Mitwirkung eines Gesundheitsamts angewiesen - ohne Auswertung des Amts keine Warnung oder Benachrichtigung von Risikokontakten. <b>Das würde mit der Corona-Warn-App besser funktionieren.</b><br>Speziell bei Luca gibt es noch zwei weitere Hürden: Durch das Kryptokonzept muss der Location-Betreiber die Daten erst noch freigeben, was zu Verzögerungen führen kann. Hinzu kommt, dass die Luca-Daten kein klares Bild bezüglich eines Infektionsrisikos liefern - und, verglichen mit der Corona-Warn-App, auch nur an Orten, wo Luca eingesetzt wird.",
+        "sources": [{
+            "url": "https://bkastl.de/notes/background-digitalisierung-in-einer-pandemie-im-gesundheitsamt",
+            "text": "Bianca Kastl: “Background: Digitalisierung. In einer Pandemie. Im Gesundheitsamt!”"
+        },{
+            "url": "https://twitter.com/UlrichKelber/status/1476841390881624086",
+            "text": "Tweet von Ulrich Kelber, Bundesdatenschutzbeauftragter"
+        }]
+    },{
+        "title": "Kosten: 1 Jahr = 21 Millionen Euro für 13 Bundesländer, dazu Werbe-Ausgaben und Personalkosten",
+        "text": "Die Kosten für ein Jahr Luca-App beliefen sich bundesweit auf ca. 21 Millionen Euro. Hinzu kommt Werbung, die Länder selbst machen (z.B. hat das Saarland über 45.000€ für Werbung ausgegeben) und Personalkosten (z.B. hat Hamburg eine eigene Abteilung für die Luca-App geschaffen, Kostenpunkt: 137.119,68€ - jeden Monat).",
+        "sources": [{
+            "text": "\u201cDigitale Kontaktverfolgung: Mehr als 20 Millionen Euro f\u00fcr Luca\u201d (netzpolitik.de)",
+            "url": "https:\/\/netzpolitik.org\/2021\/digitale-kontaktverfolgung-fast-20-millionen-euro-fuer-luca\/"
+        },{
+            "url": "https://fragdenstaat.de/a/233234",
+            "text": "Hamburg: Kosten der Luca-Abteilung"
+        },{
+            "url": "https://fragdenstaat.de/a/224799",
+            "text": "Saarland: Staatskanzlei Saarland entwirft Luca-Werbekampagne „luca? – Ei Jò!“ - für 46.000€"
+        }]
+    },{
+        "title": "Datenschutz?",
+        "text": "Das Thema Datenschutz scheint ein vergleichsweise kleiner Kritikpunkt an der Luca-App zu sein. Die zentrale Speicherung aller Daten bei einem einzigen Anbieter und die damit mögliche Analyse von Meta-Daten könnte ein deutliches Datenschutzrisiko darstellen. Ansonsten trifft die Kritik von Experten eher das generelle Konzept der App sowie die Datenqualität.",
+        "sources": [{
+            "url": "https:\/\/arxiv.org\/pdf\/2103.11958.pdf",
+            "text": "PDF: Preliminary Analysis of Potential Harms in the Luca Tracing System"
+        }]
+    }],
     "linklist": [{
         "title": "Frag den Staat: IFG-Anfragen zur Luca-App",
         "text": "Über die Webseite fragdenstaat.de wurden viele Anfragen zum Thema Luca-App gemäß des Informationsfreiheits-Gesetzes (IFG) an Behörden, Ämter und öffentliche Stellen gerichtet - und teilweise beantwortet.",
@@ -48,7 +153,7 @@
 
     },{
         "title": "Expertenwissen von Bianca Kastl",
-        "text": "Bianca Kastl ist direkt an der \"Corona-Front\" tätig und hilft Gesundheitsämtern bei der Digitalisierung. Sie kennt die Situation in Gesundheitsämtern somit aus erster Hand - und berichtet auf ihrer Webseite immer wieder zur Digitalisierung und zum Datenschutz beim Vorgehen bei der Kontaktnachverfolgung.<br>Bildquelle: Screenshot von bkastl.de, dort <a href=\"https://openmoji.org/\" target=\"_blank\">OpenMoji</a>",
+        "text": "Bianca Kastl ist direkt an der \"Corona-Front\" tätig und hilft Gesundheitsämtern bei der Digitalisierung, ist dort in die Prozesse eingebunden und hat in diesem Rahmen auch Luca als Pilot getestet. Sie kennt die Situation und Prozesse in Gesundheitsämtern somit aus erster Hand - und berichtet auf ihrer Webseite immer wieder zur Digitalisierung und zum Datenschutz beim Vorgehen bei der Kontaktnachverfolgung.<br>Bildquelle: Screenshot von bkastl.de, dort <a href=\"https://openmoji.org/\" target=\"_blank\">OpenMoji</a>",
         "imgsrc": "https://luca.fail/assets/bkastl.png",
         "links": [{
             "url": "https://bkastl.de/notes/datenschutz-versus-infektionsschutz",

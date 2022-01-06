@@ -17,9 +17,36 @@
                display: flex;
                flex: 1 1 auto;
             }
+            blockquote {
+                padding-left: 15px;
+                padding-right: 15px;
+                text-indent: -0.45em;
+                font-style: italic;
+                font-family: Georgia;
+                quotes: "“" "”" "‘" "’";
+            }
+            @supports ( hanging-punctuation: first) {
+                blockquote {
+                    text-indent: 0;
+                    hanging-punctuation: first;
+                }
+            }
+
+            blockquote::before {
+                content: open-quote;
+            }
+            blockquote::after {
+                content: close-quote;
+            }
+            div.quote-origin {
+                margin-top: -5px;
+                padding-right: 15px;
+                text-align: right;
+                margin-bottom: 10px;
+            }
         </style>
 
-        <title>Linkliste zur Luca-App</title>
+        <title>Linkliste zur Kritik an der Luca-App</title>
 
         <!--
             WELCOME TO THE SOURCE CODE!
@@ -36,7 +63,7 @@
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@Wasserbombe" />
         <meta name="twitter:creator" content="@Wasserbombe" />
-        <meta property="og:title" content="Linkliste zur Luca-App" />
+        <meta property="og:title" content="Linkliste zur Kritik an der Luca-App" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://luca.fail/" />
         <meta property="og:image" content="https://timeline.luca.fail/assets/restaurant_1920.jpg" />
@@ -51,7 +78,7 @@
         <main>
             <div class="container">
                 <h1>
-                    Linkliste zur Luca-App
+                    Linkliste zur Kritik an der Luca-App
                 </h1>
                 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
                     <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
@@ -71,10 +98,21 @@
                     </div>
                 </div>
                 <p>
-                    Die folgende Liste enthält einige Seiten, die sich sehr intensiv oder sogar ausschließlich mit der Kritik an der Luca-App beschäftigen. Darüber hinaus berichten auch immer wieder (über-)regionale Medien und IT-Sicherheitsexperten über die Luca-App; einen Auszug daraus gibt es chronologisch geordnet in der <a href="https://timeline.luca.fail/" target="_blank">Timeline zur Luca-App</a>.
+                    Die folgende Liste enthält einige Seiten, die sich sehr intensiv oder sogar ausschließlich mit der Kritik an der Luca-App beschäftigen. Darüber hinaus berichten auch immer wieder (über-)regionale Medien und IT-Sicherheitsexperten über die Luca-App; einen Auszug daraus gibt es chronologisch geordnet in der <a href="https://timeline.luca.fail/" target="_blank">Timeline zur Luca-App</a>.<br>
+                    Aber: Diese Aufzählung ist nicht perfekt. Es kann sein, dass Einträge fehlen oder vielleicht falsch sind. Dann bitte einen kurzen Hinweis per Mail an <a href="mailto:mitmachen@luca.fail">mitmachen@luca.fail</a>. Bei neuen Einträgen bitte darauf achten, dass die Kritik sachlich, begründet und fundiert ist.
                 </p>
                 <div id="linkarea"></div>
                 <br>
+                <h3>Zusammengefasst: Was wird eigentlich kritisiert?</h3>
+                <div class="alert alert-danger d-flex align-items-center" role="alert">
+                    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                    <div>
+                        Noch im Aufbau.
+                    </div>
+                </div>
+                <div class="accordion" id="criticarea"></div>
+                <br>
+                <hr>
                 <h3>Datenschutzerklärung</h3>
                 <ul>
                     <li>
@@ -108,6 +146,10 @@ luca.fail:443 - - [03/Jan/2022:22:27:51 +0100] 441 "GET /assets/timeline.png HTT
                         Sollten Sie nur eine Auskunft gemäß DSGVO wünschen, so können Sie sich diese <a href="/assets/datenschutzauskunft.txt" target="_blank">hier</a> herunterladen, ohne uns eine E-Mail zu schreiben.
                     </li>
                 </ul>
+
+                <h3>Impressum</h3>
+                Diese Webseite wird privat aus rein persönlichem Interesse betrieben und verfolgt keine gewerblichen/kommerziellen Zwecke oder Absichten.<br>
+                Impressum siehe <a href="https://timeline.luca.fail/" target="_blank">timeline.luca.fail</a>.
             </div>
         </main>
         

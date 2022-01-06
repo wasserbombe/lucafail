@@ -27,6 +27,37 @@
 
                 $("#linkarea").append($card);
             }); 
+
+            data.critics.forEach((critic, c) => {
+                var $item = $("<div>").addClass("accordion-item");
+                var $header = $("<h2>").addClass("accordion-header").attr("id", "heading" + c);
+                $header.append(
+                    $("<button>")
+                        .addClass("accordion-button collapsed").text(critic.name)
+                        .attr("data-bs-toggle", "collapse")
+                        .attr("data-bs-target", "#collapse" + c)
+                        .append($("<b>").text((c+1) + ". " +critic.title))
+                );
+                $item.append($header);
+
+                var $collapse = $("<div>").addClass("accordion-collapse collapse").attr("id", "collapse" + c).attr("data-bs-parent","criticarea");
+                var $body = $("<div>").addClass("accordion-body");
+                $body.html(critic.text);
+
+                
+                if (critic.sources && critic.sources.length > 0) {
+                    var $sources = $("<ul>"); 
+                    critic.sources.forEach((link, i) => {
+                        $sources.append($("<li>").append($("<a>").attr("href", link.url).attr("target", "_blank").html(link.text)));
+                    });
+                    $body.append($sources); 
+                }                
+
+                $collapse.append($body);
+                $item.append($collapse);
+
+                $("#criticarea").append($item);
+            }); 
         }
     })
 })(); 
