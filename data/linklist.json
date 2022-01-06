@@ -43,7 +43,7 @@
         }]
     },{
         "title": "“Kryptografie allein löst keine Sicherheitsprobleme”",
-        "text": "Sicherheitsprobleme wie \"LucaTrack\", das Auslesen der Bewegungshistorie aller Schlüsselanhänger oder das Einschleusen von Schadcode bei Gesundheitsämtern seien auch mit der besten Kryptografie möglich - hier fehle es konzeptionell.",
+        "text": "Sicherheitsprobleme wie \"LucaTrack\", das Auslesen der Bewegungshistorie aller Schlüsselanhänger oder das Einschleusen von Schadcode bei Gesundheitsämtern waren bzw. seien auch mit der besten Kryptografie möglich - hier fehle es eher konzeptionell.<br><br>Dass aber auch die Kryptografie selbst ein Problem darstellen kann - wenn auch eher im Sinne der User Experience -, zeigen diverse Fällen, in denen keine Kontaktdaten entschlüsselt werden konnten, weil Location-Betreiber ihre privaten Schlüssel nicht mehr finden konnten.",
         "sources": [{
             "url": "https://bkastl.de/notes/background-digitalisierung-in-einer-pandemie-im-gesundheitsamt",
             "text": "Bianca Kastl: “Background: Digitalisierung. In einer Pandemie. Im Gesundheitsamt!”"
@@ -98,10 +98,17 @@
         }]
     },{
         "title": "Datenschutz?",
-        "text": "Das Thema Datenschutz scheint ein vergleichsweise kleiner Kritikpunkt an der Luca-App zu sein. Die zentrale Speicherung aller Daten bei einem einzigen Anbieter und die damit mögliche Analyse von Meta-Daten könnte ein deutliches Datenschutzrisiko darstellen. Ansonsten trifft die Kritik von Experten eher das generelle Konzept der App sowie die Datenqualität.",
+        "text": "Das Thema Datenschutz scheint neben dem Nutzen, der Effektivität und Effizienz sowie den Kostenxdf ein vergleichsweise kleiner Kritikpunkt an der Luca-App zu sein. Die zentrale Speicherung aller Daten bei einem einzigen Anbieter und die damit mögliche Analyse von Meta-Daten könnte ein deutliches Datenschutzrisiko darstellen. Ansonsten trifft die Kritik von Experten eher das generelle Konzept der App sowie die Datenqualität.",
         "sources": [{
             "url": "https:\/\/arxiv.org\/pdf\/2103.11958.pdf",
             "text": "PDF: Preliminary Analysis of Potential Harms in the Luca Tracing System"
+        }]
+    },{
+        "title": "Warnung erfolgt zu spät",
+        "text": "Die Luca-App warnt erst nachdem ein Gesundheitsamt einen Infektionsfall bearbeitet, die erfassten Kontaktdaten verarbeitet und analysiert hat. Bis vom Testergebnisse eine Kontaktnachverfolgung angestoßen wird, kann einige Zeit vergehen - Betreiber zu bitten, Luca-Kontaktdaten freizugeben nimmt noch einmal zusätzliche Zeit in Anspruch.<br>Die Corona-Warn-App benachrichtigt bei einem hinterlegten Testergebnis andere, potenziell gefährdete Menschen unmittelbar - ohne Zutun der Gesundheitsämter.<br><br><blockquote>die Luca-App habe in Bayern zum Stand 19. November \"innerhalb der letzten 14 Tage 2666 Systemhinweise\" ausgespielt, dazu 1274 Risikohinweise der Stufe eins und keine Risikohinweise der Stufe zwei.<br>Nach Adjeis Berechnungen spielte die Corona-Warn-App des Bundes im gleichen Zeitraum ungefähr 100 000 Risiko-Warnungen vor einer Infektion aus - also deutlich mehr.</blockquote>",
+        "sources": [{
+            "url": "https:\/\/www.sueddeutsche.de\/bayern\/bayern-luca-app-kritik-gruene-1.5495628",
+            "text": "Maximilian Gerl: \u201cGr\u00fcne fordern, Lizenz f\u00fcr Luca-App nicht zu verl\u00e4ngern\u201d (sueddeutsche.de)"
         }]
     }],
     "linklist": [{
