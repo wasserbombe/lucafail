@@ -1,6 +1,6 @@
 {
     "critics": [{
-        "title": "Überlastung der Gesundheitsämter",
+        "title": "Überlastung der Gesundheitsämter, kaum Nutzung von Luca zur Kontaktnachverfolgung",
         "text": "Gesundheitsämter sind aufgrund ihrer Auslastung gar nicht in der Lage, Kontaktnachverfolgung und/oder Luca zu nutzen und haben es nach einer Analyse des Chaos Computer Clubs Freiburg in letzter Zeit (Stand: 06.01.2021) auch nicht (siehe Quelle unten).<br><br><blockquote>Einfacher löst das die Corona-Warn-App. Sie nimmt nicht den Umweg über eines der chronisch überlasteten Gesundheitsämter, die in zahlreichen Fällen die Quarantänemaßnahmen erst Wochen später per Post an die Betroffenen vermeldeten. »Die Luca-App ist im Prinzip nur die elektrifizierte Version eines langsamen und brüchigen Prozesses«, kritisiert auch Netzaktivistin Bianca Kastl. »Das eigentliche Ziel, Kontakte möglichst schnell und direkt zu warnen, lässt sich so kaum mehr erreichen, weil Gesundheitsämter schlichtweg bereits mehr als genug Arbeit in dieser Pandemie zu tun haben.</blockquote><blockquote>Die Entwicklerin Bianca Kastl sieht in der Luca-App kein Potenzial mehr fürs effektive Kontakt-Tracing in der Pandemie. Ämter fragten die Daten kaum ab.</blockquote>",
         "sources": [{
             "url": "https://www.focus.de/gesundheit/rueckschlag-bei-pandemie-bekaempfung-rueckschlag-bei-pandemie-bekaempfung-gesundheitsaemter-geben-kontaktverfolgung-auf_id_24514897.html",
@@ -98,7 +98,7 @@
         }]
     },{
         "title": "Datenschutz?",
-        "text": "Das Thema Datenschutz scheint neben dem Nutzen, der Effektivität und Effizienz sowie den Kostenxdf ein vergleichsweise kleiner Kritikpunkt an der Luca-App zu sein. Die zentrale Speicherung aller Daten bei einem einzigen Anbieter und die damit mögliche Analyse von Meta-Daten könnte ein deutliches Datenschutzrisiko darstellen. Ansonsten trifft die Kritik von Experten eher das generelle Konzept der App sowie die Datenqualität.",
+        "text": "Das Thema Datenschutz scheint neben dem Nutzen, der Effektivität und Effizienz sowie den Kosten ein vergleichsweise kleiner Kritikpunkt an der Luca-App zu sein. Die zentrale Speicherung aller Daten bei einem einzigen Anbieter und die damit mögliche Analyse von Meta-Daten könnte ein deutliches Datenschutzrisiko darstellen. Ansonsten trifft die Kritik von Experten eher das generelle Konzept der App sowie die Datenqualität.",
         "sources": [{
             "url": "https:\/\/arxiv.org\/pdf\/2103.11958.pdf",
             "text": "PDF: Preliminary Analysis of Potential Harms in the Luca Tracing System"
@@ -109,6 +109,26 @@
         "sources": [{
             "url": "https:\/\/www.sueddeutsche.de\/bayern\/bayern-luca-app-kritik-gruene-1.5495628",
             "text": "Maximilian Gerl: \u201cGr\u00fcne fordern, Lizenz f\u00fcr Luca-App nicht zu verl\u00e4ngern\u201d (sueddeutsche.de)"
+        }]
+    },{
+        "title": "Daten können für Zwecke außerhalb des Infektionsschutzgesetzes verwendet werden (und werden es)",
+        "text": "Normalerweise dürfen die in der Luca-App erhobenen Daten nur für den Infektionsschutz - d.h. für die Kontaktnachverfolgung - verwendet werden. Die zentrale Speicherung, die nicht vorhandene Datensparsamkeit und die einheitliche Plattform bieten sich allerdings an, sie auch für andere Zwecke zu verwenden, auch von Behörden - wie jüngst geschehen:",
+        "sources": [{
+            "url": "https:\/\/www.swr.de\/swraktuell\/rheinland-pfalz\/mainz\/polizei-ermittelt-ohne-rechtsgrundlage-mit-daten-aus-luca-app-100.html",
+            "text": "\u201cMainzer Polizei nutzte Daten aus Luca-App ohne Rechtsgrundlage\u201d (swr.de)"
+        },{
+            "url": "https://netzpolitik.org/2022/mainz-polizei-nutzte-luca-daten-von-kneipenbesuchern-ohne-rechtsgrundlage/",
+            "text": "Markus Reuter: \u201cPolizei nutzte Luca-Daten von Kneipenbesuchern ohne Rechtsgrundlage\u201d (netzpolitik.org)"
+        }]
+    },{
+        "title": "Benutzungserfahrung",
+        "text": "Das kryptografische Konzept ist für viele Nutzer nicht leicht zu verstehen, die damit aber umgehen müssen. Beispielsweise müssen Location-Betreiber sich eine Datei mit ihrem privaten Schlüssel herunterladen und diese aufbewahren - dass sie sie nochmal zur Datenfreigabe benötigen, ist vielen nicht bewusst.<br>Auch der Bayerische Blinden- und Sehbehindertenbund e.V. kritisiert die Luca-App in Bezug auf die Benutzung; sie sei nicht barrierefrei", 
+        "sources": [{
+            "url": "https:\/\/www.ndr.de\/nachrichten\/mecklenburg-vorpommern\/Corona-Ausbruch-nach-Party-Luca-App-Daten-unbrauchbar,coronavirus5596.html",
+            "text": "NDR: \u201cCorona-Ausbruch nach Party: Luca-App-Daten unbrauchbar\u201d (ndr.de)"
+        },{
+            "url": "https:\/\/bbsb.org\/newsletter-eintrag\/bbsb-pressemitteilung-luca-app-nicht-barrierefrei-bbsb-inform-12-04-2021-2\/",
+            "text": "Bayerische Blinden- und Sehbehindertenbund e.V.: Luca-App nicht barrierefrei (bbsb.org)"
         }]
     }],
     "linklist": [{
