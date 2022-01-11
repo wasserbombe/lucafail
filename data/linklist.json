@@ -20,7 +20,7 @@
         }]
     },{
         "title": "Datenqualität fraglich",
-        "text": "Die Datenqualität der Luca-App ist für viele Experten fraglich, da in den Luca-Daten keine Risikobewertung wie z.B. bei der Corona-Warn-App, die den Abstand zur infizierten Person, Dauer des Kontakts sowie dafür Forschung über Aerosol-Einfluss und -Dauer mit einbezieht. Auch kann die Luca-App nur an bestimmten Orten zum Einsatz kommen und ist darauf angewiesen, dass QR-Codes möglichst granular verteilt und auch aktiv benutzt werden.<br>Die fehlende Risikobewertung hat zur Folge, dass Gesundheitsämter immer <i>alle Daten</i> eines Events erhalten - und diese dann erst bewerten müssen.",
+        "text": "Die Datenqualität der Luca-App ist für viele Experten fraglich, da in den Luca-Daten keine Risikobewertung wie z.B. bei der Corona-Warn-App, die den Abstand zur infizierten Person, Dauer des Kontakts sowie dafür Forschung über Aerosol-Einfluss und -Dauer mit einbezieht. Auch kann die Luca-App nur an bestimmten Orten zum Einsatz kommen und ist darauf angewiesen, dass QR-Codes möglichst granular verteilt und auch aktiv benutzt werden.<br>Die fehlende Risikobewertung hat zur Folge, dass Gesundheitsämter immer <i>alle Daten</i> eines Events erhalten - und diese dann erst bewerten müssen.<br><br>Die Stadt Weimar hat während einer Erprobungsphase der Luca-App eine Studie durchgeführt und die Kontaktnachverfolgung via Luca evaluiert. Das Fazit:<blockquote>Die von der Firma angebotene Luca-App bringe dem Gesundheitsamt nicht den erhofften Mehrwert bei der Konaktdaten-Nachverfolgung. Entscheidend sei, dass die App in Objekten mit vielen Menschen nicht differenzieren konnte, wer sich nahe und wer sich weit entfernt von einem Infektionsfall aufgehalten habe. Wenn das Amt Kontaktdaten von 20 Menschen braucht, aber 200 bekommt, sei das nicht hilfreich.<\/blockquote>",
         "sources": [{
             "url": "https:\/\/www.sr.de\/sr\/home\/nachrichten\/politik_wirtschaft\/luca-app_im_saarland_bislang_ein_flop_100.html",
             "text": "Caroline Uhl, Niklas Resch: \u201cLuca-App im Saarland bislang ein Flop\u201d (sr.de)"
@@ -30,6 +30,9 @@
         },{
             "url": "https://bkastl.de/notes/background-digitalisierung-in-einer-pandemie-im-gesundheitsamt",
             "text": "Bianca Kastl: “Background: Digitalisierung. In einer Pandemie. Im Gesundheitsamt!”"
+        },{
+            "url": "https:\/\/stadt.weimar.de\/fileadmin\/redaktion\/Dokumente\/corona\/Evaluation_des_Weimarer_Modells_final_Stand20210412_1523.pdf",
+            "text": "Das Weimarer Modell: Testen \u2013 Lockern - Impfen, Evaluation der Testphase 1 (stadt.weimar.de)"
         }]
     },{
         "title": "Kommerzialisierung: Zukunft nach der Pandemie ungewiss, aber theoretisch kommerzialisierbar",
@@ -221,7 +224,7 @@
 
     },{
         "title": "Luca-Megathread: Problemsammlung von Manuel Atug",
-        "text": "Manuel Atug, IT-Sicherheitsexperte, Gründer der <a href=\"https://ag.kritis.info/wer-sind-wir/\" target=\"_blank\">AG KRITIS</a> und CCC-Mitglied verfolgt die Entwicklung Luca-Systems schon lange und berichtet immer wieder von neuen Erkenntnissen oder auch Problemen der App. Diese sammelt er in einem großen Twitter-Thread, der inzwischen über 1000 Tweets umfasst.",
+        "text": "Manuel Atug, IT-Sicherheitsexperte, Gründer der <a href=\"https://ag.kritis.info/wer-sind-wir/\" target=\"_blank\">AG KRITIS</a> und CCC-Mitglied verfolgt die Entwicklung Luca-Systems schon lange und berichtet immer wieder von neuen Erkenntnissen oder auch Problemen der App. Diese sammelt und bewertet er in einem großen Twitter-Thread, der inzwischen über 1000 Tweets umfasst.",
         "imgsrc": "https://luca.fail/assets/manuelatug.png",
         "links": [{
             "text": "Tweet #1",
