@@ -1,0 +1,54 @@
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-horizontal {
+   display: flex;
+   flex: 1 1 auto;
+}
+blockquote {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: -0.45em;
+    font-style: italic;
+    font-family: Georgia;
+    quotes: "“" "”" "‘" "’";
+}
+@supports ( hanging-punctuation: first) {
+    blockquote {
+        text-indent: 0;
+        hanging-punctuation: first;
+    }
+}
+
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+div.quote-origin {
+    margin-top: -5px;
+    padding-right: 15px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.badge-anonym {
+    border-radius: 5px;
+    font-weight: bold; 
+    font-size: smaller;
+    padding: 5px;
+}
+.badge-anonym-meist {
+    background-color: #ff8c00;
+}
+
+.badge-anonym-immer {
+    background-color: #006400;
+    color: white; 
+}
+.badge-anonym-nie {
+    background-color: #8b0000;
+    color: white; 
+}

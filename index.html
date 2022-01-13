@@ -4,47 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.75">
 
-        <!-- <link href="css/main.css" rel="stylesheet"> -->
+        <link href="css/main.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/bootstrap-icons/bootstrap-icons.css">
-
-        <style>
-            .card {
-                margin-top: 20px;
-                margin-bottom: 20px;
-            }
-            .card-horizontal {
-               display: flex;
-               flex: 1 1 auto;
-            }
-            blockquote {
-                padding-left: 15px;
-                padding-right: 15px;
-                text-indent: -0.45em;
-                font-style: italic;
-                font-family: Georgia;
-                quotes: "“" "”" "‘" "’";
-            }
-            @supports ( hanging-punctuation: first) {
-                blockquote {
-                    text-indent: 0;
-                    hanging-punctuation: first;
-                }
-            }
-
-            blockquote::before {
-                content: open-quote;
-            }
-            blockquote::after {
-                content: close-quote;
-            }
-            div.quote-origin {
-                margin-top: -5px;
-                padding-right: 15px;
-                text-align: right;
-                margin-bottom: 10px;
-            }
-        </style>
 
         <title>Linkliste zur Kritik an der Luca-App</title>
 
@@ -121,6 +83,213 @@
                 </p>
                 <div id="linkarea"></div>
                 <br>
+
+                <h3>Länderübersicht: Kosten, Kontaktnachverfolgung und Vertragsverlängerung für die Luca-App pro Land</h3>
+                <p>
+                    Einige Länder - wie Rheinland-Pfalz und Berlin - gingen davon aus, davon aus, dass die Kosten für die Luca-App vom Bund übernommen werden würde. Dies ist nicht der Fall.
+                </p>
+                <div class="alert alert-warning d-flex align-items-center" role="alert">
+                    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                   <div>
+                        Dieser Abschnitt befindet sich noch im Aufbau. Eine Übersichtskarte gibt es solange auf <a href="https://timeline.luca.fail" target="_blank">timeline.luca.fail</a>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Bundesland</th>
+                            <th>Kosten</th>
+                            <th>Kostenübernahme erwartet</th>
+                            <th>Vertragslaufzeit</th>
+                            <th>Anonyme KV/CWA</th>
+                            <th>Nachverfolgungen</th>
+                            <th>Anmerkungen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bayern</td>
+                            <td>5.500.000€</td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-meist">Meistens möglich</span></td>
+                            <td>?</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Baden-Württemberg</td>
+                            <td>3.700.000€</td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-immer">Immer möglich</span></td>
+                            <td>?</td>
+                            <td>3.117.000€ laut https://fragdenstaat.de/a/216802</td>
+                        </tr>
+                        <tr>
+                            <td>Niedersachsen</td>
+                            <td>3.000.000€</td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-nie">Derzeit nicht möglich</span></td>
+                            <td>?</td>
+                            <td>2.521.580 EUR (netto) laut https://fragdenstaat.de/a/220970</td>
+                        </tr>
+                        <tr>
+                            <td>Hessen</td>
+                            <td>&gt;2.000.000€</td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-immer">Immer möglich</span></td>
+                            <td>?</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Rheinland-Pfalz</td>
+                            <td>1.726.190€</td>
+                            <td>f. 18 Monate</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-immer">Immer möglich</span></td>
+                            <td>?</td>
+                            <td>
+                                1.450.580 EUR netto
+                                <small><ul>
+                                    <li>Implementierung und Betrieb der Software</li><li>Unterstützung bei deren Einführung auf Seiten der kommunalen und/oder Landesgesundheitsbehörden</li><li>den Betrieb und die Unterstützung bei der Einführung der Software auf Seiten der Betreiber/”Gastgeber”</li><li>Unterstützung im Rahmen der Einführung und Nutzung im jeweiligen Bundesland</li><li>Einmalbetrag für SMS-Kosten.</li>
+                                </ul></small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Berlin</td>
+                            <td>1.389.920€</td>
+                            <td>f. 18 Monate</td>
+                            <td>
+                                <span class="badge-anonym badge-anonym-meist">Vertrag wird geprüft</span><br>
+                                <a href="https://www.rbb24.de/politik/thema/corona/beitraege/2022/01/luca-app-vertraege-pruefung-berlin-brandenburg-kritik.html" target="_blank">Quelle</a><br>
+                                22.03.2021 - 21.03.2022
+                            </td>
+                            <td><span class="badge-anonym badge-anonym-nie">Derzeit nicht möglich</span></td>
+                            <td>?</td>
+                            <td>
+                                1.168.000 EUR netto
+                                <small><ul>
+                                    <li>216.000 € Lizenz- und Wartungskosten</li>
+                                    <li>672.000 € Betrieb Backend / Infrastruktur</li>
+                                    <li>280.000 € Einmalkosten für Inbetriebnahme</li>
+                                </ul></small>
+                                Ab dem Jahr 2022 jährliche Kosten i.H.v. 888.000 €. Schlüsselanhänger werden getrennt verhandelt.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sachsen-Anhalt</td>
+                            <td>~1.000.000€</td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-nie">Derzeit nicht möglich</span></td>
+                            <td>?</td>
+                            <td>?</td>
+                        </tr>
+                        <tr>
+                            <td>Schleswig-Holstein</td>
+                            <td>~1.000.000€</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-immer">Vertrag gekündigt</span><br><a href="https://www.shz.de/34878357" target="_blank">shz.de</a></td>
+                            <td><span class="badge-anonym badge-anonym-immer">Immer möglich</span></td>
+                            <td>?</td>
+                            <td>?</td>
+                        </tr>
+                        <tr>
+                            <td>Brandenburg</td>
+                            <td>990.000€</td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-immer">Immer möglich</span></td>
+                            <td>?</td>
+                            <td>?</td>
+                        </tr>
+                        <tr>
+                            <td>Hamburg</td>
+                            <td>615.000€</td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td>1750 Abfragen<br><a href="https://www.shz.de/deutschland-welt/wissenschaft-netzwelt/Luca-App-Schleswig-Holstein-kuendigt-Vertrag-id34878357.html" target="_blank">shz.de</a></td>
+                            <td>460k laut Riedel?</td>
+                        </tr>
+                        <tr>
+                            <td>Mecklenburg-Vorpommern</td>
+                            <td>440.776</td>
+                            <td>?</td>
+                            <td>
+                                <span class="badge-anonym badge-anonym-immer">Vertrag gekündigt</span><br>
+                                12.03.2021 - 11.03.2022; Intermimsvertrag; Gekündigt und neues Vergabeverfahren bei Bedarf
+                            </td>
+                            <td><span class="badge-anonym badge-anonym-nie">Derzeit nicht möglich</span><br><a href="https://www.mv-corona.de/sites/default/files/2022-01/2022_01_12_CoronaVV_MV_6.pdf" target="_blank">mv-corona.de</a></td>
+                            <td>?</td>
+                            <td>
+                                230.400€ für Software, Betrieb &amp; Co.<br>
+                                140.000€ für SMS-Verifizierung
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Saarland</td>
+                            <td>369.090€</td>
+                            <td>?</td>
+                            <td>
+                                <span class="badge-anonym badge-anonym-meist">Vertrag wird geprüft</span><br>
+                                Kündigung absehbar, vgl. 
+                                <a href="https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/luca_app_saarland_vor_dem_aus_100.html" target="_blank">sr.de</a>
+                            </td>
+                            <td><span class="badge-anonym badge-anonym-immer">Immer möglich</span></td>
+                            <td>
+                                10 via Luca / 
+                                48.000 Corona-Fälle<br>
+                                <a href="https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/luca_app_saarland_vor_dem_aus_100.html">sr.de</a>
+                            </td>
+                            <td>+45.888,68€ für Werbekampagne der Staatskanzlei (vgl. <a href="https://fragdenstaat.de/a/224799" target="_blank">fragdenstaat.de</a>)</td>
+                        </tr>
+                        <tr>
+                            <td>Bremen</td>
+                            <td>~260.000€</td>
+                            <td>?</td>
+                            <td>
+                                <span class="badge-anonym badge-anonym-meist">Vertrag wird geprüft</span><br>
+                                <a href="https://timeline.luca.fail/#2022-01-11_news_Bremen-stellt-Vertrag-fr-Luca-App-auf-den-Prfstand" target="_blank">Quelle</a>
+                            </td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td>?</td>
+                        </tr>
+                        <tr>
+                            <td>Nordrhein-Westfalen</td>
+                            <td>0€</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-immer">Kein Vertrag</span></td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td>NRW setzt auf offene Standards wie IRIS und hat die Luca App nicht lizenziert - zumindest nicht als Bundesland.</td>
+                        </tr>
+                        <tr>
+                            <td>Sachsen</td>
+                            <td>0€</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-immer">Kein Vertrag</span></td>
+                            <td><span class="badge-anonym badge-anonym-immer">Immer möglich</span></td>
+                            <td>?</td>
+                            <td>Einzelne Städte wie Chemnitz und Meißen nutzen Luca, Sachsen selbst setzt allerdings auf die Corona-Warn-App und schafft entsprechende rechtliche Rahmenbedingungen. </td>
+                        </tr>
+                        <tr>
+                            <td>Thüringen</td>
+                            <td>0€</td>
+                            <td>?</td>
+                            <td><span class="badge-anonym badge-anonym-immer">Kein Vertrag</span></td>
+                            <td>
+                                <span class="badge-anonym badge-anonym-meist">Meistens möglich</span><br>
+                                Laut Stadt Jena CWA möglich, laut Landesverordnung (!) nicht.
+                            </td>
+                            <td>?</td>
+                            <td>Nur in einzelnen Städten? U.a. Stadt Jena</td>
+                        </tr>
+                    </tbody>
+                </table>
                 
                 <hr>
                 <h3>Datenschutzerklärung</h3>
