@@ -205,15 +205,6 @@
             "url": "https://www.ccc.de/de/updates/2021/luca-app-ccc-fordert-bundesnotbremse"
         }]
     },{
-        "title": "#LucaApp Performance Monitor",
-        "text": "Luca-App Performance Monitor von Ralf Rottmann",
-        "imgsrc": "https://luca.fail/assets/luca.denken.io.png",
-        "links": [{
-            "text": "luca.denken.io",
-            "url": "https://luca.denken.io/"
-        }]
-
-    },{
         "title": "Timeline zur Luca-App",
         "text": "Ein chronologisch aufbereiteter Überblick über die Luca-App basierend auf aktueller Berichterstattung, Statements von IT- und Security-Experten, Talks und Videos sowie Informationsfreiheits-Anfragen auf fragdenstaat.de<br>Die Daten der Luca-Timeline stehen maschinenlesbar im JSON-Format zur Verfügung.",
         "imgsrc": "https://luca.fail/assets/timeline.gif",
@@ -260,6 +251,75 @@
             "text": "Tweet #1000",
             "url": "https://twitter.com/HonkHase/status/1472505615037702147"
         }]
+    },{
+        "title": "Recherche und Hintergründe von Markus Feilner",
+        "text": "Markus Feilner recherchiert schon länger zu den Entwicklungen rund um die Luca-App und berichtet immer wieder davon - u.a. in einigen interessanten Artikeln, die er für Heise Telepolis geschrieben hat. ",
+        "imgsrc": "https://luca.fail/assets/markusfeilner.jpg",
+        "links": [{
+            "text": "#Lucaapp @honkhase – The Metathread for the Megathread",
+            "url": "https://feilner-it.net/2021/05/07/lucaapp-honkhase-the-metathread-for-the-megathread/"
+        },{
+            "text": "miniDebConf Regensburg 2021: Mein Leben mit Luca (youtube.com)",
+            "url": "https://youtu.be/OBu-6HtHYWU"
+        },{
+            "url": "https:\/\/www.regensburg-digital.de\/luca-in-regensburg-digitales-globuli\/28042021\/",
+            "text": "Interview von Stefan Aigner mit Markus Feilner: \u201cLuca in Regensburg: Digitales Globuli\u201d (regensburg-digital.de)"
+        },
+        {
+            "url": "https:\/\/www.regensburg-digital.de\/warnen-sie-ihre-buergerinnen-und-buerger-vor-der-luca-app\/12052021\/",
+            "text": "Appell an Stadtspitze und Stadtrat: \u201cWarnen Sie Ihre B\u00fcrgerinnen und B\u00fcrger vor der Luca-App\u201d (regensburg-digital.de)"
+        },{
+            "url": "https://www.heise.de/tp/features/Die-Luca-App-Dilettantisch-und-sinnlos-6007111.html",
+            "text": "\u201cDie Luca-App: Dilettantisch und sinnlos\u201d (heise.de, 07.04.2021)"
+        },{
+            "url": "https://www.heise.de/tp/features/Luca-App-Keine-Risikoanalyse-aber-viele-offene-Fragen-6007113.html",
+            "text": "\u201cLuca-App: Keine Risikoanalyse, aber viele offene Fragen\u201d (heise.de, 08.04.2021)"
+        },{
+            "url": "https://www.heise.de/tp/features/Wenn-Politik-sich-ins-Security-Theater-fluechtet-6007117.html",
+            "text": "\u201cWenn Politik sich ins Security-Theater flüchtet\u201d (heise.de, 09.04.2021)"
+        },{
+            "url": "https://www.heise.de/tp/features/CEO-der-Luca-App-im-Kampf-gegen-Windmuehlen-6019262.html",
+            "text": "\u201cCEO der Luca-App im \"Kampf gegen Windmühlen\"\u201d (heise.de, 19.04.2021)"
+        },{
+            "url": "https://www.heise.de/tp/features/Luca-App-Hilfe-oder-Belastung-von-Gesundheitsaemtern-6021060.html",
+            "text": "\u201cLuca-App: Hilfe oder Belastung von Gesundheitsämtern?\u201d (heise.de, 20.04.2021)"
+        },{
+            "url": "https://www.heise.de/tp/features/Haben-Fehler-korrigiert-und-uns-entschuldigt-6022319.html",
+            "text": "\u201c\"Haben Fehler korrigiert und uns entschuldigt\"\u201d (heise.de, 21.04.2021)"
+        },{
+            "url": "https://www.regensburg-digital.de/luca-in-regensburg-digitales-globuli/28042021/",
+            "text": "Interview von Stefan Aigner mit Markus Feilner: \u201cLuca in Regensburg: Digitales Globuli\u201d (regensburg-digital.de, 28.04.2021)"
+        },{
+            "url": "https://www.heise.de/tp/features/Luca-App-Fachleute-warnen-vor-massivem-Missbrauchspotential-6032557.html",
+            "text": "\u201cLuca-App: Fachleute warnen vor \"massivem Missbrauchspotential\"\u201d (heise.de, 30.04.2021)"
+        },{
+            "url": "https://www.regensburg-digital.de/luca-app-in-regensburg-stadtrat-kritisiert-beschlussvorlage/03052021/",
+            "text": "Appell an Stadtrat: \u201cLuca-App in Regensburg: Stadtrat kritisiert Beschlussvorlage\u201d (regensburg-digital.de, 03.05.2021)"
+        },{
+            "url": "https://www.regensburg-digital.de/warnen-sie-ihre-buergerinnen-und-buerger-vor-der-luca-app/12052021/",
+            "text": "Appell an Stadtspitze und Stadtrat: \u201cWarnen Sie Ihre B\u00fcrgerinnen und B\u00fcrger vor der Luca-App\u201d (regensburg-digital.de, 12.05.2021)"
+        },{
+            "url": "https://www.regensburg-digital.de/regensburg-geht-auf-distanz-zur-luca-app/20052021/",
+            "text": "\u201cRegensburg geht auf Distanz zur Luca-App\u201d (regensburg-digital.de, 20.05.2021)"
+        },{
+            "url": "https://www.heise.de/tp/features/Luca-und-Luegen-6144169.html",
+            "text": "\u201cLuca und Lügen\u201d (heise.de, 21.07.2021)"
+        },{
+            "url": "https://www.heise.de/tp/features/Google-Apple-und-die-Luca-App-6149774.html",
+            "text": "\u201cGoogle, Apple und die Luca-App\u201d (heise.de, 29.07.2021)"
+        },{
+            "url": "https://www.heise.de/tp/features/Fuenf-Sterne-fuer-die-Luca-App-Das-Essen-war-sehr-gut-6149776.html",
+            "text": "\u201cFünf Sterne für die Luca-App: \"Das Essen war sehr gut\"\u201d (heise.de, 30.07.2021)"
+        }]
+    },{
+        "title": "#LucaApp Performance Monitor",
+        "text": "Luca-App Performance Monitor von Ralf Rottmann",
+        "imgsrc": "https://luca.fail/assets/luca.denken.io.png",
+        "links": [{
+            "text": "luca.denken.io",
+            "url": "https://luca.denken.io/"
+        }]
+
     },{
         "title": "Dokument: \"Luca-App: Warum wir nochmal drüber reden sollten.\"",
         "text": "Um jedem Interessierten und Verantwortlichen in IT, Kommune, auf Kreis- und Landesebene einen möglichst vollständigen Überblick über die Kritikpunkte bei der Luca-App zu geben, wurde dieses Dokument ins Leben gerufen - sodass vor dem Einsatz von Luca unter der eigenen Verantwortung eine sorgfältige Abwägung zwischen Features und Erleichterung auf der einen Seite (vorgestellt von Luca selbst) und möglichen Risiken und Problemen auf der anderen Seite (hier im Dokument) stattfinden kann.<br><font color=\"darkred\"><b>Zuletzt aktualisiert am 27.08.2021 - Informationen möglicherweise veraltet</b></font>",
