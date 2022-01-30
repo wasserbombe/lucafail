@@ -143,6 +143,14 @@
         }]
     }],
     "linklist": [{
+        "title": "Info-Seite \"Luca-Exit\": Ausstieg aus der Luca-App",
+        "text": "exit.luca.fail erklärt, was vonseiten der Nutzer:innen, der Location-Betreiber:innen und der Politik bei einem Ausstieg eines Bundeslandes bei der Luca-App zu beachten ist.<br><br>Bildquelle: <a href=\"https://pixabay.com/users/geralt-9301/\">Gerd Altmann</a> from <a href=\"https://pixabay.com/\">Pixabay</a>",
+        "imgsrc": "https://luca.fail/assets/exit.luca.fail.jpg",
+        "links": [{
+            "url": "https://exit.luca.fail/",
+            "text": "exit.luca.fail"
+        }]
+    },{
         "title": "Expertenwissen von Bianca Kastl",
         "text": "Bianca Kastl ist direkt an der \"Corona-Front\" tätig und hilft Gesundheitsämtern bei der Digitalisierung, ist dort in die Prozesse eingebunden und hat in diesem Rahmen auch Luca als Pilot getestet. Sie kennt die Situation und Prozesse in Gesundheitsämtern somit aus erster Hand - und berichtet auf ihrer Webseite immer wieder zur Digitalisierung und zum Datenschutz beim Vorgehen bei der Kontaktnachverfolgung.<br>Bildquelle: Screenshot von bkastl.de, dort <a href=\"https://openmoji.org/\" target=\"_blank\">OpenMoji</a>",
         "imgsrc": "https://luca.fail/assets/bkastl.png",
@@ -349,7 +357,7 @@
         }]
     },{
         "title": "Stellungnahmen von verschiedenen Organisationen, Vereinen und Verbänden",
-        "text": "Bildquelle: <a href=\"https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3354366\">Gerd Altmann</a> from <a href=\"https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3354366\">Pixabay</a>",
+        "text": "Bildquelle: <a href=\"https://pixabay.com/users/geralt-9301/\">Gerd Altmann</a> from <a href=\"https://pixabay.com/\">Pixabay</a>",
         "imgsrc": "https://luca.fail/assets/stellungnahmen.png",
         "links": [{
             "url": "https://www.ccc.de/de/updates/2021/luca-app-ccc-fordert-bundesnotbremse",

@@ -52,3 +52,10 @@ div.quote-origin {
     background-color: #8b0000;
     color: white; 
 }
+
+#lucaexit_btn {
+    position: fixed;
+    bottom: 20px; 
+    right: 10px; 
+    z-index: 9999;
+}
