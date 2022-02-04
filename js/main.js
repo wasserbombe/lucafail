@@ -58,6 +58,10 @@
 
                 $("#criticarea").append($item);
             }); 
+
+            if (location.hash){
+                $(location.hash).get(0).scrollIntoView();
+            }
         }
     })
 })(); 
